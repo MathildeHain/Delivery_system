@@ -1,0 +1,61 @@
+/*Polices*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/*Barre de navigation*/
+nav {
+    background-color: #a69b72;
+}
+
+/*Section de présentation*/
+.presentation {
+    background-color: #a69b72;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 32px 25px;
+}
+.presentation_p {
+    text-align: justify;
+    margin: 0;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.presentation_img {
+    max-width: -webkit-fill-available;
+    background-attachment: fixed;
+}
+
+/*Présentation de la carte*/
+.carte_title {
+    text-align: center;
+    margin: 0;
+    padding: 25px 0;
+}
+
+#carte {
+    background-color: #a69b72;
+}
+
+.article_img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.carte_article {
+    margin: 15px 19px;
+    padding: 24px;
+    display: flex;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border: 2px solid #c3bca1;
+    border-radius: 20px;
+}
